@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/bnkuvdolbxhb/public_html/new_quicklease
+    - echo "Deploying to $DEPLOYPATH"
+    - /bin/cp -R * $DEPLOYPATH
